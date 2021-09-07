@@ -3,7 +3,8 @@ title: "All about the Cloud"
 layout: post
 ---
 
-As a normal person who doesn't know much about electronics, one thinks of the cloud, and just thinks it's a convinient service to have access to your "stuff" anywhere you want. So in theori you could take a picture on your camera and use `Google Drive` and be able to access it on your laptop/computer/mobile or log-in to your account at the school's computer and have access to it. But in all honestly is that all? in this blog I will be discussing the different things I found out while I did some reading, also what different services there are out there and how much they would cost to have lets say a simple website with a database.
+As a normal person who doesn't know much about electronics, one thinks of the cloud, and just thinks it's a convenient service to have access to your "stuff" anywhere you want. So in theory you could take a picture on your camera and use `Google Drive` and be able to access it on your laptop/computer/mobile or log-in to your account at the school's computer and have access to it. But in all honestly is that all? in this blog I will be discussing the different things I found out while I did some reading, also what different services there are out there and how much they would cost to have lets say a simple website with a database.
+
 
 ## What is the Cloud
 
@@ -32,3 +33,8 @@ Software as a service, this is a ready and done deal, so a good example would be
 
 ## Different Cloud providers and the pricing
 
+![GooglePricePic](/assets/googleCloudPrice.png)
+
+![MicrosoftPricePic](/assets/MicrosoftCloudPriceAppService.png)
+
+![AWSPricePic](/assets/AWSCloudPricing.png)
