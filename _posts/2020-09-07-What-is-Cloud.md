@@ -16,11 +16,13 @@ Infrastructure as a Service, here is where you grab somethings from the service 
 
 ### PaaS
 
-Platform as a Service, its a ready to use platform for your code, so you get a set of tools in order to add your code and you just decorate it but all the big things are there, you don't have to worry about adding a check out/credit card handling on your webshop because the code will be there. You however still have the responsability to tweek and change things as time passes by 
+Platform as a Service, its a ready to use platform for your code, so you get the stuff you get in IaaS plus you get other things that come with it like the database, and other tools you need. You however still have the responsability to tweek and change things as time passes by. 
+
+And if we were to compare Saas where you get the software already done and delivered, with PaaS you are given a platform where you can create the finish software.
 
 ### SaaS
 
-Software as a service, this is a ready and done deal, so a good example would be Square space, you go in and choose what you want, you as a costumer aren't required to write or know about code, you just buy the finish product. Another good example would be Office 365.
+Software as a service, this is a ready and done deal, you go in and choose what you want, you as a costumer aren't required to write or know about code, you just buy the finish product. A good example would be Office 365. So you pay to use the software, but you don't own it, you are per say renting it.
 
 ## What are the pros and cons of using Cloud services?
 
@@ -33,8 +35,14 @@ Software as a service, this is a ready and done deal, so a good example would be
 
 ## Different Cloud providers and the pricing
 
+Here I will be comparing the top 3 cloud providers in the world plus 1 more additional european provider. This is for a simple website and database, that runs every day for a year, I tried to search for the same specs 2 CPUs, 8GB RAM och 10 GB disk space in a Linux server in Europe, I tried to locate them all for north europe to make sure the prices wouldn't be different because of it.
+
+In conclusion  most of them are about the same price even the smaller one (Digital Ocean) so I think now days they are fairly affordable.
+
 ![GooglePricePic](/assets/googleCloudPrice.png)
 
 ![MicrosoftPricePic](/assets/MicrosoftCloudPriceAppService.png)
 
 ![AWSPricePic](/assets/AWSCloudPricing.png)
+
+![DigitalOceanPic](/assets/DigitalOceanPricing.png)
