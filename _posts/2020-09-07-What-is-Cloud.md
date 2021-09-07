@@ -46,3 +46,11 @@ In conclusion  most of them are about the same price even the smaller one (Digit
 ![AWSPricePic](/assets/Images/AWSCloudPricing.png)
 
 ![DigitalOceanPic](/assets/Images/DigitalOceanPricing.png)
+
+## References
+
+[Is the cloud really just somone else's computer](https://www.techrepublic.com/article/is-the-cloud-really-just-someone-elses-computer/)
+
+[Cloud computing tutorial for beginers](https://www.youtube.com/watch?v=RWgW-CgdIk0&t=378s)
+
+[SaaS vs PaaS vs IaaS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
