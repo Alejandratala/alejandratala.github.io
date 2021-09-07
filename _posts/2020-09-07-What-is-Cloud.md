@@ -39,10 +39,10 @@ Here I will be comparing the top 3 cloud providers in the world plus 1 more addi
 
 In conclusion  most of them are about the same price even the smaller one (Digital Ocean) so I think now days they are fairly affordable.
 
-![GooglePricePic](/assets/googleCloudPrice.png)
+![GooglePricePic](/assets/Images/googleCloudPrice.png)
 
-![MicrosoftPricePic](/assets/MicrosoftCloudPriceAppService.png)
+![MicrosoftPricePic](/assets/Images/MicrosoftCloudPriceAppService.png)
 
-![AWSPricePic](/assets/AWSCloudPricing.png)
+![AWSPricePic](/assets/Images/AWSCloudPricing.png)
 
-![DigitalOceanPic](/assets/DigitalOceanPricing.png)
+![DigitalOceanPic](/assets/Images/DigitalOceanPricing.png)
