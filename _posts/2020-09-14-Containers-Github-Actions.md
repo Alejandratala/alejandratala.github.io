@@ -33,13 +33,13 @@ Going back to last blog post, we want to make our project try to build an image 
     * What's new is that we are adding a registry, along with username and password, github thankfully sorts the token for us (line 35) so we dont have to do any github secrets or anything its just automated.
     * Line 38, we are doing the action of what its trying to do.
     * Line 40, we are automatically push the build result to the registry, in my example case it would be the githut packages.
-    * Line 41, we give it the registry (ghcr.io) if we dont give it one, it will automatically try to use the docker one, then we have the user name (alejandratala) this one is a must, its the host name, and it has to be according to DNS rules if its incorrect it won't work, along with the this applies also to the name of the project.
+    * Line 41, we give it the registry (ghcr.io) if we dont give it one, it will automatically try to use the docker one, then we have the user name (alejandratala) this one is a must, its the host name, and it has to be according to DNS rules if its incorrect it won't work, along with the this applies also to the name of the project. I also didn't add a latest at the end of this line because it always tries to do it automatically.
 
 ![GitHub actions with docker job](/assets/Images/DockerimageJob.png)
 
 ## Github Secret
 
-I wanted to write a more prominent space for this, because in my workflow I am using github username and password, well github already sorts the token out automatically, it knows it has to sort out a token, so it does it on the background, there was no need to go in and make a secret and add a value in my project.
+I wanted to write a more prominent space for this, because in my workflow I am using github username and password, well... github already sorts the token out automatically. It just knows it has to sort out a token, so it does it on the background, there was no need to go in and make a secret and add a value in my project.
 
 ## OUTRO
 I hope this has proven helpful to someone out there, I know it can be confusing, specially if you want to understand what each thing does while using docker images and containers, along with actions!
@@ -51,3 +51,4 @@ I hope this has proven helpful to someone out there, I know it can be confusing,
 [Github Docker build-push](https://github.com/docker/buildx/blob/master/docs/reference/buildx_build.md#push)
 [Github, build-push-action](https://github.com/docker/build-push-action)
 [Github, login-action](https://github.com/docker/login-action#github-container-registry)
+[What's wrong with the docker: latest tag?](https://vsupalov.com/docker-latest-tag/)
