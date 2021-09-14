@@ -47,8 +47,13 @@ I hope this has proven helpful to someone out there, I know it can be confusing,
 ## References
 
 [Docker tag, extended description](https://docs.docker.com/engine/reference/commandline/tag/)
+
 [About the Github token](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
+
 [Github Docker build-push](https://github.com/docker/buildx/blob/master/docs/reference/buildx_build.md#push)
+
 [Github, build-push-action](https://github.com/docker/build-push-action)
+
 [Github, login-action](https://github.com/docker/login-action#github-container-registry)
+
 [What's wrong with the docker: latest tag?](https://vsupalov.com/docker-latest-tag/)
