@@ -1,5 +1,5 @@
 ---
-title:"Serverless Applications"
+title: "Serverless Applications"
 layout: post
 ---
 
