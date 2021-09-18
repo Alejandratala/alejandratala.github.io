@@ -3,6 +3,9 @@ title: "Serverless Applications"
 layout: post
 ---
 
+In this blog post we will be exploring functions with the help of azure. I will be doing a simple HTTP trigger testing out adding two numbers and seeing just how to do that with the help of Azure Functions.
+
+
 ## What is Serverless and  what is FaaS?
 
 Serverless means that apps arent using a server, they are being stored in a cloud service, going serverless helps developers to build applications faster because the services using something like azure enables.
