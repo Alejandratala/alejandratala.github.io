@@ -1,0 +1,24 @@
+Second Lecture Notes:
+
+automatisering av bygg och release!
+
+slide 1- sometimes its parallel, its not a step by step thing
+	
+Agile is a small dicipline that helps small teams manage small projects
+	a big project is a bunch of small projects put together!
+		*the goal with Agile: try to higher the effectiveness with team development
+			
+slide 2- 1. system tänk
+	 2. förstärk feedback spiral
+	 3. kultur av försatt experimentering och läring
+
+slide 5
+Continuous Integration
+	we push our code in github, build, run, code analysis, if it doesn't work 
+	you rinse and repeat 
+	
+slide 6
+Software deployment
+	the process of delivering the software. We deliver the code that is in fact finished
+	 
+	

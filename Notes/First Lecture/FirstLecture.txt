@@ -1,0 +1,6 @@
+Dependency Injection, look it up
+
+slide 7, is a traditional look of a cloud!
+classic cloud solutions: IaaS per min charge, PaaS per second charge, SaaS per month
+
+
