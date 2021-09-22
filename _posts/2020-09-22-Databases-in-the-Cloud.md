@@ -14,8 +14,22 @@ My idea was simple: make a database, then make a collection (or as someone would
 
 ## Code
 
-First I have a Users.cs file, and here is where a
+First I have a [Users.cs](https://github.com/Alejandratala/cloud-blog-5/blob/main/Users.cs) file, and here is where all of the code gets run here is the biggest method. In the method Run, in the parameter we add a CosmosDB part and we give it the information it needs to connect to our Azure cosmosdb database, in the connection setting we give it a name and we store the real value in the local.settings.json file (which is not added in github)
 
+Then simply we go into two if's one for GET and one for POST, there is methods there telling it what to do for each case, if not then we are returning a "Not Found Result"
+
+![Codeblock Blog5](/assets/Images/CodeBlog5.png)
+
+![local.setting.json](/assets/Images/Blogg5localsettingjsonfile.png)
+
+### GetUser Method
+
+* First we get the id from the request. 
+* Then it creates a link for the database collection
+* Line 66: we are creating the query by giving the collection link with a maximum count of 1, in order to make sure we only get 1 result, where the id is the same as the id that we are searching. 
+* Even if there is more than 1 result we are still getting one, this is happening in line 72, we also cast it to User to make sure it only shows the information from that class.
+
+![Get User Function](/assets/Image/Blog5GetUser.png)
 
 ## Future proofing the database
 
@@ -34,3 +48,5 @@ I used the [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculat
 [Github Azure-functions-bindings-cosmosdb](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-functions/functions-bindings-cosmosdb-v2-input.md#http-trigger-get-multiple-docs-using-documentclient-c)
 
 [Integrating Azure Cosmos DB with Azure Functions](https://www.youtube.com/watch?v=L88quzuyjDY)
+
+[Alejandra's exercise on Github](https://github.com/Alejandratala/cloud-blog-5)
