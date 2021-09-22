@@ -1,36 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <title>Webapp Alejandra</title>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-</head>
-<body>
-    <nav class="menu">
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="login.html">Log in</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <section class="section">
-            <h1>Welcome to this website's home page.</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante odio, ultricies in arcu eu, consequat vehicula lorem. Nunc feugiat congue turpis, eu scelerisque est pretium rutrum. Vestibulum dignissim ex et ultrices rhoncus. Vivamus nulla libero, molestie quis dapibus id, rutrum vel lorem. Phasellus auctor aliquet turpis vitae euismod. Sed accumsan ex in nisi sagittis aliquam. Sed dictum tortor tristique accumsan dignissim. In maximus faucibus urna sit amet pellentesque. Sed mollis dolor eu nunc sollicitudin finibus. Curabitur eget porta odio. Vivamus sit amet malesuada massa, non commodo tortor. Etiam commodo lobortis hendrerit. Sed rutrum elementum eros, sed volutpat orci venenatis eu. Sed mattis, neque sed molestie fringilla, nibh nulla tristique augue, ut consequat nisi mauris at elit. Donec gravida malesuada velit sit amet hendrerit.
+---
+layout: default
+title: "Home"
+---
 
-Quisque lacinia dapibus ultricies. Etiam mattis et eros ac iaculis. Praesent quis est tortor. Praesent id turpis sed turpis pharetra viverra. Donec ipsum lorem, congue at magna blandit, accumsan fringilla mi. Proin egestas arcu orci, non euismod nisi lacinia ac. Integer nibh nunc, euismod ut justo ac, commodo laoreet nisi. Aenean fringilla fringilla scelerisque. Duis ullamcorper ipsum ut nunc luctus, at sagittis lectus tincidunt. Donec a sem sed libero venenatis placerat. Vestibulum id ligula nisi. Cras sit amet magna sed tellus vehicula semper. Curabitur ligula felis, ultricies rhoncus iaculis non, accumsan vel purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </section>
-        <section class="section">
-            <h1>Welcome to this website's home page.</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante odio, ultricies in arcu eu, consequat vehicula lorem. Nunc feugiat congue turpis, eu scelerisque est pretium rutrum. Vestibulum dignissim ex et ultrices rhoncus. Vivamus nulla libero, molestie quis dapibus id, rutrum vel lorem. Phasellus auctor aliquet turpis vitae euismod. Sed accumsan ex in nisi sagittis aliquam. Sed dictum tortor tristique accumsan dignissim. In maximus faucibus urna sit amet pellentesque. Sed mollis dolor eu nunc sollicitudin finibus. Curabitur eget porta odio. Vivamus sit amet malesuada massa, non commodo tortor. Etiam commodo lobortis hendrerit. Sed rutrum elementum eros, sed volutpat orci venenatis eu. Sed mattis, neque sed molestie fringilla, nibh nulla tristique augue, ut consequat nisi mauris at elit. Donec gravida malesuada velit sit amet hendrerit.
-
-Quisque lacinia dapibus ultricies. Etiam mattis et eros ac iaculis. Praesent quis est tortor. Praesent id turpis sed turpis pharetra viverra. Donec ipsum lorem, congue at magna blandit, accumsan fringilla mi. Proin egestas arcu orci, non euismod nisi lacinia ac. Integer nibh nunc, euismod ut justo ac, commodo laoreet nisi. Aenean fringilla fringilla scelerisque. Duis ullamcorper ipsum ut nunc luctus, at sagittis lectus tincidunt. Donec a sem sed libero venenatis placerat. Vestibulum id ligula nisi. Cras sit amet magna sed tellus vehicula semper. Curabitur ligula felis, ultricies rhoncus iaculis non, accumsan vel purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </section>
-    </div>
-</body>
-</html>
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
