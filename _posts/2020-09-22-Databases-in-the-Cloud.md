@@ -3,8 +3,6 @@ title: "Databases in the Cloud"
 layout: post
 ---
 
-## Databases in the Cloud
-
 In this blogg post we will be looking at Azures Cosmosdb and how it works, how I set up a small test project, and also making a HTTP Trigger function to be able to get/post something in the database.
 
 
