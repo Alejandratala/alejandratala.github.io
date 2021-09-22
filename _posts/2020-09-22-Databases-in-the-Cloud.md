@@ -50,3 +50,5 @@ I used the [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculat
 [Integrating Azure Cosmos DB with Azure Functions](https://www.youtube.com/watch?v=L88quzuyjDY)
 
 [Alejandra's exercise on Github](https://github.com/Alejandratala/cloud-blog-5)
+
+[Microsoft docs: MaxItemCount](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.feedoptions.maxitemcount?view=azure-dotnet)
