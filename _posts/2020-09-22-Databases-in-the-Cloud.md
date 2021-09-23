@@ -27,7 +27,7 @@ Then simply we go into two if's one for GET and one for POST, there is methods t
 * Line 66: we are creating the query by giving the collection link with a maximum count of 1, in order to make sure we only get 1 result, where the id is the same as the id that we are searching. 
 * Even if there is more than 1 result we are still getting one, this is happening in line 72, we also cast it to User to make sure it only shows the information from that class.
 
-![Get User Function](/assets/Image/Blog5GetUser.png)
+![Get User Function](/assets/Images/Blog5GetUser.png)
 
 ## Future proofing the database
 
