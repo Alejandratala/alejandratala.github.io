@@ -15,12 +15,12 @@ I created a Cosmos database for this project (named blog6database) then I made a
 
 ## The Code
 
-* We first want to make a Razor Pages project started.
+* I first made a Razor Page web app to get the whole thing started.
 * Adding the nuget package to the project ([Nuget: Microsoft.Azure.Cosmos](https://www.nuget.org/packages/Microsoft.Azure.Cosmos))
 * Add a model, make a folder in the project called Model, there I put my [User class](https://github.com/Alejandratala/blog6WebApp/blob/master/Model/User.cs).
 * Adding services; I made a new folder holding the services, I want to add a new file in order to hold the [CosmosService](https://github.com/Alejandratala/blog6WebApp/blob/master/Services/CosmosDbService.cs) and an [interface](https://github.com/Alejandratala/blog6WebApp/blob/master/Services/ICosmosDbService.cs)
 * In the [Startup.cs file](https://github.com/Alejandratala/blog6WebApp/blob/master/Startup.cs):
- * first we are adding a method that initializes  Cosmosdb into the project, so we can add this service into our project. I am basically trying to connect to the database. We then can go into a Page like [Index.cshtml.cs](https://github.com/Alejandratala/blog6WebApp/blob/master/Pages/Index.cshtml.cs) and we are injecting the cosmosdb service so it does it by itself. 
+ * First we are adding a method that initializes  Cosmosdb into the project, so we can add this service into our project. I am basically trying to connect to the database. We then can go into a Page like [Index.cshtml.cs](https://github.com/Alejandratala/blog6WebApp/blob/master/Pages/Index.cshtml.cs) and we are injecting the cosmosdb service so it does it by itself. 
   * Then we are also adding in the ConfigureServices method our service so its always running.
 
   ![Configure services method](/assets/Images/Blog6/Services.png)
