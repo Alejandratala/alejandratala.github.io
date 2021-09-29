@@ -22,6 +22,10 @@ The other good thing is that if any service went offline, the messages would sti
 
 ![Service Bus](/assets/Images/Blog7/ServiceBus.png)
 
+## Summary
+
+Even though it would mean alot of changes, I really think its a good idea to move to a virtual private cloud witht he help of Azure private link and then handling the communication between applications and software with Azure service bus.
+
 ## Resources
 
 [Microsoft Doc's: What is Azure Private Link](https://docs.microsoft.com/en-us/azure/private-link/private-link-overview)
