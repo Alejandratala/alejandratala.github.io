@@ -3,6 +3,8 @@ title: "Monitoring of Cloud Applications"
 layout: post
 ---
 
+With the help of Azure logging and application insights we are able to get alot of data of how the website it running and be able to check out different data. This blog will be focusing on how to set those services up and show some examples of data you can get by running some queries.
+
 
 ## Code example
 
