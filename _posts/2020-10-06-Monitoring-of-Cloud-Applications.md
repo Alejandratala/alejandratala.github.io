@@ -32,7 +32,7 @@ Checked out Server requests, and i wanted to see how many requests there were un
 
 ## Summary
 
-I think that by using logging and insights can help with security issues because you can have access to data in which you can use in order to figure out what's going on. For example you could have some crashes in the website, and you could go into azure and check out the logs and see what the logs say about that crash. By looking at the logs with that crash you could get an idea of how it crashed and prevent future crashes.
+I think that by using logging and insights can help with security issues because you can have access to data in which you can use in order to figure out what's going on. For example you could have some crashes in the website, and you could go into azure and check out the logs and see what the logs say about that crash. By looking at the logs with that crash you could get an idea of how it crashed and prevent future crashes. When it comes to security it would be the same thing, once there is a security breach you could look at the logs and get some information from them in order to try to prevent it onwards.
 
 ## Resources
 
