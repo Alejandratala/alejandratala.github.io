@@ -28,7 +28,7 @@ My first example is just the top 5 countries that have visited the website, I th
 
 Checked out Server requests, and i wanted to see how many requests there were under 1 hour, and just have it display the count:
 
-![Server request query count](/assets/Images/Blog09/Requestcount.png)
+![Server request query count](/assets/Images/Blog09/Requestscount.png)
 
 ## Summary
 
