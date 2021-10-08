@@ -32,7 +32,8 @@ Scaling out means that you are taking the same application and making a copy and
 
 * App Service: I did monthly prices, I looked at the pricing list [here](ttps://azure.microsoft.com/en-us/pricing/details/app-service/windows/)
     * Scaling up: in the basic service plan, you start at B1 (46.171€/month) and you scale up to the next tier which ends up just doubling the price, it seems pretty consistant that the price just keeps doubling.
-    * Scaling out: I looked at Basic service plan, and there you can have up to 3 instances so each instance is 46.171€ if you end up having 3 instances up the whole month it would be 46.171 * 3 = 138.513€ here it would be good to do the pricing or the calculation by the ammount of hours per month you have used it, since most likely you won't have 3 instances running *ALL* of the time.
+    * Scaling out: I looked at Basic service plan, and there you can have up to 3 instances so each instance is 46.171€ if you end up having 3 instances up the whole month it would be 46.171 * 3 = 138.513€ here it should do the pricing or the calculation by the ammount of hours per month you have used x amount of instances, since most likely you won't have 3 instances running *ALL* of the time. The price will definitely vary alot with instances because it depends on how often they are active and how many copies there are.
+    
 * Virtual Machine: I ran it out for linux VM, also monthly prices. I looked at [this](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/) to check my pricing 
     * Scaling up: I looked at the Bs-series, it gives you different options of paying-as-you-go, or 1 year reserved. Just B1s costs 3.7245€ each month with the year reserved contract.
     * Scaling out: you could take the amount of instances used * whichever instance tier and way of payment you used, so 3 instances * 3.7245€ = your price.
